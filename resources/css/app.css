@@ -66,7 +66,7 @@ h5 {
 
 .loader {
     display: none;
-    position: absolute;
+    position: fixed;
     z-index: 9999;
     left: 0;
     right: 0;
