@@ -8,7 +8,7 @@
     </x-slot>
 
     <div class="container-fluid">
-        <div class="row">
+        <div class="row mt-2">
             @foreach ($form->childs as $child)
                 <div class="col-6 col-md-4 my-2 relative text-center">
                     <a href="{{ route('forms.show', $child->id) }}" class="cover"></a>
