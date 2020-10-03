@@ -18,7 +18,7 @@
         }
     </style>
 </head>
-<body>
+<body class="mb-5">
     <div class="loader">
         <div class="lds-ripple"><div></div><div></div></div>
     </div>
