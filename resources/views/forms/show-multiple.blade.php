@@ -17,6 +17,9 @@
                                 {{ $form->name }}
                             </h1>
                             <p>
+                                <div>
+                                    <strong>Langkah {{ $loop->iteration }}</strong>
+                                </div>
                                 {{ $description }}
                             </p>
                         </div>
