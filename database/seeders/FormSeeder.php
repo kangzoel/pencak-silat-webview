@@ -31,7 +31,7 @@ class FormSeeder extends Seeder
         ]);
 
         Form::create([
-            'name' => 'Sikap Tendangan',
+            'name' => 'Teknik Tendangan',
             'parent_id' => NULL,
             'images' => json_encode(['sikap_tendangan']),
             'view' => 'form',
