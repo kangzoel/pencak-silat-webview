@@ -111,7 +111,7 @@ class FormSeeder extends Seeder
         ]);
 
         Form::create([
-            'name' => 'Sikap Tendangan Lurus',
+            'name' => 'Teknik Tendangan Lurus',
             'parent_id' => 3,
             'images' => json_encode([
                 'sikap_tendangan_lurus_01',
@@ -122,7 +122,7 @@ class FormSeeder extends Seeder
         ]);
 
         Form::create([
-            'name' => 'Sikap Tendangan Sabit',
+            'name' => 'Teknik Tendangan Sabit',
             'parent_id' => 3,
             'images' => json_encode(['sikap_tendangan_sabit_01', 'sikap_tendangan_sabit_02', 'sikap_tendangan_sabit_03', 'sikap_tendangan_sabit_04']),
             'view' => 'single',
@@ -130,7 +130,7 @@ class FormSeeder extends Seeder
         ]);
 
         Form::create([
-            'name' => 'Sikap Tendangan Samping',
+            'name' => 'Teknik Tendangan Samping',
             'parent_id' => 3,
             'images' => json_encode([
                 'sikap_tendangan_samping_01',
@@ -144,7 +144,7 @@ class FormSeeder extends Seeder
 
 
         Form::create([
-            'name' => 'Sikap Pukulan',
+            'name' => 'Teknik Pukulan',
             'parent_id' => NULL,
             'images' => json_encode(['sikap_pukulan']),
             'view' => 'form_no_desc',
@@ -152,7 +152,7 @@ class FormSeeder extends Seeder
         ]);
 
         Form::create([
-            'name' => 'Sikap Pukulan Lurus',
+            'name' => 'Teknik Pukulan Lurus',
             'parent_id' => 16,
             'images' => json_encode(['sikap_pukulan_lurus_01', 'sikap_pukulan_lurus_02', 'sikap_pukulan_lurus_03']),
             'view' => 'multiple',
@@ -160,7 +160,7 @@ class FormSeeder extends Seeder
         ]);
 
         Form::create([
-            'name' => 'Sikap Pukulan Buku Jari',
+            'name' => 'Teknik Pukulan Buku Jari',
             'parent_id' => 16,
             'images' => json_encode([
                 'sikap_pukulan_buku_jari_01',
@@ -172,7 +172,7 @@ class FormSeeder extends Seeder
         ]);
 
         Form::create([
-            'name' => 'Sikap Pukulan Tusuk',
+            'name' => 'Teknik Pukulan Tusuk',
             'parent_id' => 16,
             'images' => json_encode(['sikap_pukulan_tusuk_01', 'sikap_pukulan_tusuk_02', 'sikap_pukulan_tusuk_03']),
             'view' => 'multiple',
@@ -180,7 +180,7 @@ class FormSeeder extends Seeder
         ]);
 
         Form::create([
-            'name' => 'Sikap Bukaan',
+            'name' => 'Teknik Bukaan',
             'parent_id' => NULL,
             'images' => json_encode(['sikap_bukaan']),
             'view' => 'form_no_desc',
@@ -188,7 +188,7 @@ class FormSeeder extends Seeder
         ]);
 
         Form::create([
-            'name' => 'Sikap Bukaan 1 Tangan',
+            'name' => 'Teknik Bukaan 1 Tangan',
             'parent_id' => 20,
             'images' => json_encode([
                 'sikap_bukaan_1_tangan_01',
@@ -200,7 +200,7 @@ class FormSeeder extends Seeder
         ]);
 
         Form::create([
-            'name' => 'Sikap Bukaan 2 Tangan',
+            'name' => 'Teknik Bukaan 2 Tangan',
             'parent_id' => 20,
             'images' => json_encode(['sikap_bukaan_2_tangan_01', 'sikap_bukaan_2_tangan_02', 'sikap_bukaan_2_tangan_03']),
             'view' => 'multiple',
@@ -208,7 +208,7 @@ class FormSeeder extends Seeder
         ]);
 
         Form::create([
-            'name' => 'Sikap Bantingan',
+            'name' => 'Teknik Bantingan',
             'parent_id' => NULL,
             'images' => json_encode(['sikap_bantingan']),
             'view' => 'form_no_desc',
@@ -216,7 +216,7 @@ class FormSeeder extends Seeder
         ]);
 
         Form::create([
-            'name' => 'Sikap Bantingan Depan Tendangan Lurus',
+            'name' => 'Teknik Bantingan Depan Tendangan Lurus',
             'parent_id' => 23,
             'images' => json_encode([
                 'sikap_bantingan_depan_tendangan_lurus_01',
@@ -229,7 +229,7 @@ class FormSeeder extends Seeder
         ]);
 
         Form::create([
-            'name' => 'Sikap Bantingan Depan Tendangan Sabit',
+            'name' => 'Teknik Bantingan Depan Tendangan Sabit',
             'parent_id' => 23,
             'images' => json_encode([
                 'sikap_bantingan_depan_tendangan_lurus_01',

@@ -28,7 +28,7 @@
         @if (url()->current() === url('/'))
             <div class="p-3">
                 <strong>
-                    Macam-Macam Sikap
+                    Macam-Macam Gerakan
                 </strong>
             </div>
         @else
