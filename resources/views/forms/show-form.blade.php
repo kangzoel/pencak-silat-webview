@@ -19,6 +19,9 @@
                                         <button class="btn btn-primary mr-2" onclick="playVideo()">
                                             Putar
                                         </button>
+                                        <button class="btn btn-dark mr-2" onclick="pauseVideo()">
+                                            <i class="fas fa-pause"></i>
+                                        </button>
                                         <button class="btn btn-warning" onclick="stopVideo()">
                                             Stop
                                         </button>
@@ -99,6 +102,10 @@
                     player.mute()
                     player.setLoop(true)
                     player.playVideo()
+                }
+
+                function pauseVideo() {
+                    player.pauseVideo()
                 }
 
                 function stopVideo() {
