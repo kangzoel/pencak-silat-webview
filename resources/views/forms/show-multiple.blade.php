@@ -23,6 +23,24 @@
                                 {{ $description }}
                             </p>
                         </div>
+                        @if ($form->youtube_url !== NULL && $loop->last)
+                            <div>
+                                <h1 class="h3 mt-4 font-weight-700 text-white mb-3 mt-0 text-center">
+                                    Video Ilustrasi
+                                </h1>
+                                <div class="text-center my-3">
+                                    <button class="btn btn-primary mr-2" onclick="playVideo()">
+                                        Putar
+                                    </button>
+                                    <button class="btn btn-warning" onclick="stopVideo()">
+                                        Stop
+                                    </button>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center youtube-iframe">
+                                    <div id="youtubePlayer"></div>
+                                </div>
+                            </div>
+                        @endif
                     @endforeach
                 </div>
             </div>
@@ -61,6 +79,42 @@
                 touchMove: false,
                 draggable: false,
             });
+
+            $('#youtubePlayer')
         </script>
+        @if ($form->youtube_url !== null)
+            <script>
+                const youtubeAPI = document.createElement('script')
+                const firstScript = $('script')[0]
+
+                let player
+                function onYouTubeIframeAPIReady() {
+                    player = new YT.Player('youtubePlayer', {
+                        height: '390',
+                        width: '640',
+                        videoId: '{{ $form->youtube_video_id }}',
+                        playerVars: {
+                            playlist: '{{ $form->youtube_video_id }}',
+                            loop: 1,
+                            controls: 0,
+                            showinfo: 0
+                        }
+                    });
+                }
+
+                function playVideo() {
+                    player.mute()
+                    player.setLoop(true)
+                    player.playVideo()
+                }
+
+                function stopVideo() {
+                    player.stopVideo()
+                }
+
+                youtubeAPI.src = 'https://www.youtube.com/iframe_api'
+                $(youtubeAPI).insertBefore(firstScript);
+            </script>
+        @endif
     </x-slot>
 </x-app>

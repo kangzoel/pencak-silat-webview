@@ -24,6 +24,22 @@ class Form extends Model
         return $imagesUrl;
     }
 
+    public function getYoutubeUrlAttribute($value)
+    {
+        if ($value != null) {
+            $videoId = explode('?v=', $value)[1];
+
+            return 'https://www.youtube.com/embed/' . $videoId . '?controls=0&disablekb=1&hl=id-id&loop=1&modestbranding=1&playlist=' . $videoId;
+        } else {
+            return null;
+        }
+    }
+
+    public function getYoutubeVideoIdAttribute()
+    {
+        return explode('playlist=', $this->youtube_url)[1];
+    }
+
     public function parent()
     {
         return $this->belongsTo('App\Models\Form', 'parent_id', 'id');

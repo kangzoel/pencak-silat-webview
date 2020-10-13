@@ -115,8 +115,11 @@ class FormSeeder extends Seeder
             'parent_id' => 3,
             'images' => json_encode([
                 'sikap_tendangan_lurus_01',
-                'sikap_tendangan_lurus_02', 'sikap_tendangan_lurus_03', 'sikap_tendangan_lurus_04'
+                'sikap_tendangan_lurus_02',
+                'sikap_tendangan_lurus_03',
+                'sikap_tendangan_lurus_04'
             ]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=zQSJYdt_UqU',
             'view' => 'single',
             'description' => "Tendangan lurus adalah sebuah serangan salah satu kaki yang digunakan untuk menyerang lawan dengan mendorong kaki ke depan mengenai lawan. Tendangan lurus ini sering sekali digunakan oleh pesilat dalam pertandingan karena dinilai efektif dalam menyerang. Instrumen gerak dapat dilihat di gambar.",
         ]);
@@ -124,7 +127,13 @@ class FormSeeder extends Seeder
         Form::create([
             'name' => 'Teknik Tendangan Sabit',
             'parent_id' => 3,
-            'images' => json_encode(['sikap_tendangan_sabit_01', 'sikap_tendangan_sabit_02', 'sikap_tendangan_sabit_03', 'sikap_tendangan_sabit_04']),
+            'images' => json_encode([
+                'sikap_tendangan_sabit_01',
+                'sikap_tendangan_sabit_02',
+                'sikap_tendangan_sabit_03',
+                'sikap_tendangan_sabit_04'
+            ]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=GslQkd-Z--Q',
             'view' => 'single',
             'description' => "Tendangan sabit adalah serangan yang menggunakan salah satu kaki dengan bentuk akhir dari tendangan menyerupai sabit. Tendangan sabit sama seperti tendangan lurus yang menjadi salah satu teknik serangan yang banyak digunakan pesilat dalam sebuah pertandingan karena dinilai efektif dan mudah untuk dilakukan pesilat dalam pertandingan. Instrumen gerak dapat dilihat pada gambar.",
         ]);
@@ -138,6 +147,7 @@ class FormSeeder extends Seeder
                 'sikap_tendangan_samping_03',
                 'sikap_tendangan_samping_04'
             ]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=XQ7G61ddvhQ',
             'view' => 'single',
             'description' => "Tendangan samping (T) adalah serangan yang dilakukan menggunakan salah satu kaki dengan mendorongkan kaki yang menendang dengan keras menyamping, sehingga bentuk akhir gerakan menyerupai huruf (T). Seperti tendangan lurus dan tendangan sabit, tendangan samping (T) sering diguakan pesilat dalam pertandingan karena dinilai sangat efektif karena hasil tendangannya begitu keras sehingga dapat menghasilkan efek yang signifikan jika terkena sasaran atau pesilat lain dalam pertandingan. Instrumen gerak tendangan samping (T) dapat dilihat pada gambar.",
         ]);
@@ -154,7 +164,12 @@ class FormSeeder extends Seeder
         Form::create([
             'name' => 'Teknik Pukulan Lurus',
             'parent_id' => 16,
-            'images' => json_encode(['sikap_pukulan_lurus_01', 'sikap_pukulan_lurus_02', 'sikap_pukulan_lurus_03']),
+            'images' => json_encode([
+                'sikap_pukulan_lurus_01',
+                'sikap_pukulan_lurus_02',
+                'sikap_pukulan_lurus_03'
+            ]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=p5FRobwVApY',
             'view' => 'multiple',
             'description' => "Satu kaki dibuka ke depan, buka kedua telapak tangan dan hadapkan ke depan dengan tangan yang sama dengan kaki belakang berada sejajar dengan dada dan tangan yang sama dengan kaki depan berada di bawahnya.|Tangan kanan ditarik ke arah belakang. Tangan kiri berada di atas kepalan tangan kanan|Tangan kanan didorong keras lurus ke depan dengan ketinggian sama dengan ketinggian bahu. ",
         ]);
@@ -167,6 +182,7 @@ class FormSeeder extends Seeder
                 'sikap_pukulan_buku_jari_02',
                 'sikap_pukulan_buku_jari_03'
             ]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=z8Jq_3wDW3w',
             'view' => 'multiple',
             'description' => "Satu kaki dibuka ke depan, buka kedua telapak tangan dan hadapkan ke depan dengan tangan yang sama dengan kaki belakang berada sejajar dengan dada dan tangan yang sama dengan kaki depan berada di bawahnya.|Tangan kanan ditarik ke arah belakang. Tangan kiri berada di atas kepalan tangan kanan|Tangan kanan didorong keras lurus ke depan, kepalan dirubah menjadi buku jari",
         ]);
@@ -174,7 +190,12 @@ class FormSeeder extends Seeder
         Form::create([
             'name' => 'Teknik Pukulan Tusuk',
             'parent_id' => 16,
-            'images' => json_encode(['sikap_pukulan_tusuk_01', 'sikap_pukulan_tusuk_02', 'sikap_pukulan_tusuk_03']),
+            'images' => json_encode([
+                'sikap_pukulan_tusuk_01',
+                'sikap_pukulan_tusuk_02',
+                'sikap_pukulan_tusuk_03'
+            ]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=2SdT1qIao-I',
             'view' => 'multiple',
             'description' => "Satu kaki dibuka ke depan, buka kedua telapak tangan dan hadapkan ke depan dengan tangan yang sama dengan kaki belakang berada sejajar dengan dada dan tangan yang sama dengan kaki depan berada di bawahnya.|Tangan kanan ditarik ke arah belakang. Tangan kiri berada di atas kepalan tangan kanan|Tangan kanan didorong keras lurus ke depan, kepalan dibuka menjadi tangan terbuka dengan ketinggian sama dengan ketinggian bahu.",
         ]);
@@ -195,6 +216,7 @@ class FormSeeder extends Seeder
                 'sikap_bukaan_1_tangan_02',
                 'sikap_bukaan_1_tangan_03'
             ]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=6zHIhi179QE',
             'view' => 'multiple',
             'description' => "Tangan kanan dipegang oleh lawan|Dekatkan tangan kanan yang dipegang oleh lawan ke arah dada sambil merubah arah ke arah luar/ kanan|Dorong tangan kanan yang dipegang oleh lawan dengan keras sehingga membuka kepalan/ pegangan lawan.",
         ]);
@@ -202,7 +224,12 @@ class FormSeeder extends Seeder
         Form::create([
             'name' => 'Teknik Bukaan 2 Tangan',
             'parent_id' => 20,
-            'images' => json_encode(['sikap_bukaan_2_tangan_01', 'sikap_bukaan_2_tangan_02', 'sikap_bukaan_2_tangan_03']),
+            'images' => json_encode([
+                'sikap_bukaan_2_tangan_01',
+                'sikap_bukaan_2_tangan_02',
+                'sikap_bukaan_2_tangan_03'
+            ]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=uG9zJYZxgJk',
             'view' => 'multiple',
             'description' => "Tangan kanan dipegang oleh lawan dengan 2 tangan|Dekatkan tangan kanan yang dipegang oleh lawan ke arah dada sambil merubah arah ke arah luar/ kanan dan memegang tangan lawan diikuti dengan tangan kiri yang mengambil tangan kiri lawan|Tarik kedua tangan lawan menyilang sehingga mengunci gerakan lawan.",
         ]);
@@ -224,6 +251,7 @@ class FormSeeder extends Seeder
                 'sikap_bantingan_depan_tendangan_lurus_03',
                 'sikap_bantingan_depan_tendangan_lurus_04'
             ]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=ZYavu0-H-1k',
             'view' => 'multiple',
             'description' => "Kedua pesilat berhadapan.|Pesilat 1 menendang dengan tendangan lurus. Pesilat 2 menangkap dengan tangan kanan bersamaan dengan tangan kiri yang mendorong tubuh pesilat 1.|Pesilat 2 mengangkat tangkapan tangan kanan dengan tinggi. Tangan kiri eterus mendorong dengan keras tubuh pesilat 1 sambil melangkahkan kaki kiri ke depan kaki tumpu pesilat 1.|Pesilat 2 menjatuhkan pesilat 1.",
         ]);
@@ -237,6 +265,7 @@ class FormSeeder extends Seeder
                 'sikap_bantingan_depan_tendangan_sabit_03',
                 'sikap_bantingan_depan_tendangan_sabit_04'
             ]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=0dIJmYruU0Q',
             'view' => 'multiple',
             'description' => "Kedua pesilat berhadapan.|Pesilat 1 menendang dengan tendangan sabit. Pesilat 2 menangkap dengan tangan kiri bersamaan dengan tangan kanan yang mendorong tubuh pesilat 1.|Pesilat 2 mengangkat tangkapan tangan kiri dengan tinggi. Tangan kanan terus mendorong dengan keras tubuh pesilat 1 sambil melangkahkan kaki kanan ke depan kaki tumpu pesilat 1.|Pesilat 2 menjatuhkan pesilat 1.",
         ]);

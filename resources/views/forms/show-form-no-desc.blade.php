@@ -14,7 +14,7 @@
                     <a href="{{ route('forms.show', $child->id) }}" class="cover"></a>
                     <div class="shadow-sm bg-white p-2">
                         <img src="{{ $child->images[0] }}" alt="thumbnail" class="home-thumbnail">
-                        <h2 class="text-center h6 mt-2">{{ $child->name }}</h2>
+                        <h2 class="text-center h6 mt-2 default-text" style="font-size: .85em">{{ $child ->name }}</h2>
                     </div>
                 </div>
             @endforeach
