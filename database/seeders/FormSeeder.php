@@ -375,7 +375,7 @@ class FormSeeder extends Seeder
             'name' => 'Jurus Tunggal IPSI (10)',
             'parent_id' => 26,
             'images' => json_encode(["jurus/jurus10_01","jurus/jurus10_02","jurus/jurus10_03","jurus/jurus10_04","jurus/jurus10_05","jurus/jurus10_06","jurus/jurus10_07","jurus/jurus10_08","jurus/jurus10_09","jurus/jurus10_12","jurus/jurus10_11","jurus/jurus10_10","jurus/jurus10_13"]),
-            'youtube_url' => 'https://www.youtube.com/watch?v=8oIxBz2VLfg',
+            'youtube_url' => 'https://www.youtube.com/watch?v=JmUXi95fAwo',
             'view' => 'multiple',
             'description' => 'Pasang bawah melutut|Bacok samping arah depan|Tangkis lenggang kanan||Putar bacok bawah|Mundur bacok bawah|Beset leher - vkanan|Ganti pegangan sabet leher – tegak rapat|Balik belah bumi|Tangkisan golok dalam|Lompat sabet kiri|Lompat belah bumi|Pasang bawah|',
         ]);
@@ -384,7 +384,7 @@ class FormSeeder extends Seeder
             'name' => 'Jurus Tunggal IPSI (11)',
             'parent_id' => 26,
             'images' => json_encode(["jurus/jurus11_01","jurus/jurus11_03","jurus/jurus11_04","jurus/jurus11_05","jurus/jurus11_06","jurus/jurus11_07","jurus/jurus11_08","jurus/jurus11_09","jurus/jurus11_10","jurus/jurus11_11","jurus/jurus11_12","jurus/jurus11_13","jurus/jurus11_14","jurus/jurus11_15","jurus/jurus11_16","jurus/jurus11_17"]),
-            'youtube_url' => 'https://www.youtube.com/watch?v=-5cM_TcHoGk',
+            'youtube_url' => 'https://www.youtube.com/watch?v=0wqEOz-VLbE',
             'view' => 'multiple',
             'description' => 'Pasang mundur – 3 langkah silang ke belakang||||Sikap pasang kuda kuda tengah|Gebuk kanan|Sangga kaki kanan mundur|Tusuk kanan||Sabetan kaki bawah arah balik kiri|Putar punggung||Lompat putar|||Kemplang lantai',
         ]);
