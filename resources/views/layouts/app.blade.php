@@ -16,6 +16,13 @@
             left: 0;
             right: 0;
         }
+        .slick-slider {
+            -webkit-user-select: text;
+            -khtml-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
     </style>
 </head>
 <body class="mb-5">
