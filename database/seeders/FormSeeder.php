@@ -269,5 +269,151 @@ class FormSeeder extends Seeder
             'view' => 'multiple',
             'description' => "Kedua pesilat berhadapan.|Pesilat 1 menendang dengan tendangan sabit. Pesilat 2 menangkap dengan tangan kiri bersamaan dengan tangan kanan yang mendorong tubuh pesilat 1.|Pesilat 2 mengangkat tangkapan tangan kiri dengan tinggi. Tangan kanan terus mendorong dengan keras tubuh pesilat 1 sambil melangkahkan kaki kanan ke depan kaki tumpu pesilat 1.|Pesilat 2 menjatuhkan pesilat 1.",
         ]);
+
+        // JURUS
+
+        Form::create([
+            'name' => 'Jurus Tunggal IPSI',
+            'parent_id' => null,
+            'images' => json_encode(["jurus/salam_pembuka_02"]),
+            'youtube_url' => null,
+            'view' => 'form_no_desc',
+            'description' => null,
+        ]);
+
+        Form::create([
+            'name' => 'Salam Pembukaan',
+            'parent_id' => 26,
+            'images' => json_encode(["jurus/salam_pembuka_01", "jurus/salam_pembuka_02", "jurus/salam_pembuka_03"]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=6GSNRyaTUFc',
+            'view' => 'multiple',
+            'description' => '||||||||',
+        ]);
+
+        Form::create([
+            'name' => 'Jurus Tunggal IPSI (1)',
+            'parent_id' => 26,
+            'images' => json_encode(["jurus/jurus1_01","jurus/jurus1_02","jurus/jurus1_03","jurus/jurus1_04","jurus/jurus1_05","jurus/jurus1_06","jurus/jurus1_07","jurus/jurus1_08"]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=fu-9_nhKznE',
+            'view' => 'multiple',
+            'description' => 'Sikap pasang selup kanan||Tepuk - sisir - dobrak|Tangkap kanan tarik ke rusuk|Angkat lutut kiri - patahkan dengan dua tangan|Tendangan loncat kanan lurus/depan|Pukul kanan depan robah arah kiri|Pasang rendah kaki kiri depan|',
+        ]);
+
+        Form::create([
+            'name' => 'Jurus Tunggal IPSI (2)',
+            'parent_id' => 26,
+            'images' => json_encode(["jurus/jurus2_01","jurus/jurus2_02","jurus/jurus2_03","jurus/jurus2_04","jurus/jurus2_05","jurus/jurus2_06","jurus/jurus2_07","jurus/jurus2_08","jurus/jurus2_09","jurus/jurus2_10","jurus/jurus2_11"]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=x7gCV-J1mco',
+            'view' => 'multiple',
+            'description' => '|||Interval balik arah kiri sikap pasang kuda-kuda belakang||Tangkapan kanan - sikut kiri samping||Pukulan depan kanan selewa, kaki kiri depan||tangkap - sikuan atas kiri|Gedig bawah duduk, lutut kanan di bawah|',
+        ]);
+
+        Form::create([
+            'name' => 'Jurus Tunggal IPSI (3)',
+            'parent_id' => 26,
+            'images' => json_encode(["jurus/jurus3_01","jurus/jurus3_02","jurus/jurus3_03","jurus/jurus3_04","jurus/jurus3_05","jurus/jurus3_06","jurus/jurus3_07","jurus/jurus3_08","jurus/jurus3_09","jurus/jurus3_10","jurus/jurus3_11","jurus/jurus3_12"]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=Z_2Grknk3Xw',
+            'view' => 'multiple',
+            'description' => 'Interval langkah silang depan (kaki kanan)||Kaki mundur balik arah|Sikap pasang angkat kaki kanan||Gedig samping kanan|Pukulan samping kanan||Tendangan sabit kiri|||Sapuan rebah belakang|',
+        ]);
+
+        Form::create([
+            'name' => 'Jurus Tunggal IPSI (4)',
+            'parent_id' => 26,
+            'images' => json_encode(["jurus/jurus4_01","jurus/jurus4_02","jurus/jurus4_03","jurus/jurus4_04","jurus/jurus4_05","jurus/jurus4_06","jurus/jurus4_07","jurus/jurus4_08"]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=01g8YPv0YH4',
+            'view' => 'multiple',
+            'description' => 'Interval sikap pasang melutut kiri(tangan) kiri atas,kaki kiri depan|Sikap pasang samping (tangan) kanan atas|Tangkis lenggang – langkah lipat|Pukulan samping kiri|Siku tangkis kanan selewah, kaki kiri depan|Tendangan T kanan|Colok kanan|Tangkis galang atas,posisi jari tangan terbuka|',
+        ]);
+
+        Form::create([
+            'name' => 'Jurus Tunggal IPSI (5)',
+            'parent_id' => 26,
+            'images' => json_encode(["jurus/jurus5_01","jurus/jurus5_02","jurus/jurus5_03","jurus/jurus5_04","jurus/jurus5_05","jurus/jurus5_06","jurus/jurus5_07"]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=aYxkhitkdM0',
+            'view' => 'multiple',
+            'description' => 'Interval – arah samping kiri, sikap pasang serong kiri selewa||Pukulan totok kanan|Pukulan bandul kiri|Tangkis galang|Kaki rapat pukulan kanan|Elakan mundur|',
+        ]);
+
+        Form::create([
+            'name' => 'Jurus Tunggal IPSI (6)',
+            'parent_id' => 26,
+            'images' => json_encode(["jurus/jurus6_01","jurus/jurus6_02","jurus/jurus6_03","jurus/jurus6_04","jurus/jurus6_05","jurus/jurus6_06","jurus/jurus6_07","jurus/jurus6_08","jurus/jurus6_09"]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=tzv4pXHZau4',
+            'view' => 'multiple',
+            'description' => 'Interval balik arah kanan ke belakang||Sikap pasang - kuda kuda depan kiri|Balik belah bumi angkat kaki kanan||Lompatan cengkeraman kanan|Sapuan tegak kanan - Gejig kanan|Sikap garuda samping kanan|Tangkisan dua tangan arah kiri|',
+        ]);
+
+        Form::create([
+            'name' => 'Jurus Tunggal IPSI (7)',
+            'parent_id' => 26,
+            'images' => json_encode(["jurus/jurus7_01","jurus/jurus7_02","jurus/jurus7_03","jurus/jurus7_04","jurus/jurus7_05","jurus/jurus7_06","jurus/jurus7_07","jurus/jurus7_08","jurus/jurus7_09","jurus/jurus7_10","jurus/jurus7_11","jurus/jurus7_12","jurus/jurus7_13"]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=OQSCZFF-Zew',
+            'view' => 'multiple',
+            'description' => 'Sikap pasang menyamping|Kibas kanan|Sikuan kanan|Pukulan punggung tangan kanan|Tendangan T belakang kiri|Ales ke kanan|Sapuan rebah depan|Balik gejos|Sikap duduk|||Tendangan kuda gunting|Pasang sikap bawah|',
+        ]);
+
+        Form::create([
+            'name' => 'Jurus Tunggal IPSI (8)',
+            'parent_id' => 26,
+            'images' => json_encode(["jurus/jurus8_01","jurus/jurus8_02","jurus/jurus8_03","jurus/jurus8_04","jurus/jurus8_05","jurus/jurus8_06","jurus/jurus8_07","jurus/jurus8_08","jurus/jurus8_09","jurus/jurus8_10","jurus/jurus8_11","jurus/jurus8_12","jurus/jurus8_13","jurus/jurus8_14"]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=ax_vjAlgeYE',
+            'view' => 'multiple',
+            'description' => 'Interval dua langkah maju ke depan (jongkok) untuk mengambil golok||Pasang mundur langkah silang (3 langkah)|||Pasang satu kaki (angkat kanan) |Tebang keluar - kedalam|Langkah serong (2 langkah) kaki satu depan||Tebang (bacok) keluar berbalik||Tusuk kanan|Melangkah berputar balik tebang - kuda kuda tengah,tangan terbuka|Tebas – gantung kaki kanan|',
+        ]);
+
+        Form::create([
+            'name' => 'Jurus Tunggal IPSI (9)',
+            'parent_id' => 26,
+            'images' => json_encode(["jurus/jurus9_01","jurus/jurus9_02","jurus/jurus9_03","jurus/jurus9_04","jurus/jurus9_05","jurus/jurus9_06","jurus/jurus9_07","jurus/jurus9_08","jurus/jurus9_09"]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=8oIxBz2VLfg',
+            'view' => 'multiple',
+            'description' => 'Pasang kuda-kuda tengah (hadap depan) ||Balik pasang belakang|Kanan maju sabet bawah putar ke atas arah kanan||Posisi duduk||Tangkis kiri ganti pegangan sabet serong|Tangkis gagang golok kaki kanan diangkat|',
+        ]);
+
+        Form::create([
+            'name' => 'Jurus Tunggal IPSI (10)',
+            'parent_id' => 26,
+            'images' => json_encode(["jurus/jurus10_01","jurus/jurus10_02","jurus/jurus10_03","jurus/jurus10_04","jurus/jurus10_05","jurus/jurus10_06","jurus/jurus10_07","jurus/jurus10_08","jurus/jurus10_09","jurus/jurus10_12","jurus/jurus10_11","jurus/jurus10_10","jurus/jurus10_13"]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=8oIxBz2VLfg',
+            'view' => 'multiple',
+            'description' => 'Pasang bawah melutut|Bacok samping arah depan|Tangkis lenggang kanan||Putar bacok bawah|Mundur bacok bawah|Beset leher - vkanan|Ganti pegangan sabet leher – tegak rapat|Balik belah bumi|Tangkisan golok dalam|Lompat sabet kiri|Lompat belah bumi|Pasang bawah|',
+        ]);
+
+        Form::create([
+            'name' => 'Jurus Tunggal IPSI (11)',
+            'parent_id' => 26,
+            'images' => json_encode(["jurus/jurus11_01","jurus/jurus11_03","jurus/jurus11_04","jurus/jurus11_05","jurus/jurus11_06","jurus/jurus11_07","jurus/jurus11_08","jurus/jurus11_09","jurus/jurus11_10","jurus/jurus11_11","jurus/jurus11_12","jurus/jurus11_13","jurus/jurus11_14","jurus/jurus11_15","jurus/jurus11_16","jurus/jurus11_17"]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=-5cM_TcHoGk',
+            'view' => 'multiple',
+            'description' => 'Pasang mundur – 3 langkah silang ke belakang||||Sikap pasang kuda kuda tengah|Gebuk kanan|Sangga kaki kanan mundur|Tusuk kanan||Sabetan kaki bawah arah balik kiri|Putar punggung||Lompat putar|||Kemplang lantai',
+        ]);
+
+        Form::create([
+            'name' => 'Jurus Tunggal IPSI (12)',
+            'parent_id' => 26,
+            'images' => json_encode(["jurus/jurus12_01","jurus/jurus12_02","jurus/jurus12_03","jurus/jurus12_04","jurus/jurus12_05"]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=Bk8JJMlelZ4',
+            'view' => 'multiple',
+            'description' => 'Pasang tegak kiri depan|Lompat gebuk kanan|Kowet kanan|Sodok tusuk|Dayung mundur|',
+        ]);
+
+        Form::create([
+            'name' => 'Jurus Tunggal IPSI (13)',
+            'parent_id' => 26,
+            'images' => json_encode(["jurus/jurus13_01","jurus/jurus13_02","jurus/jurus13_03","jurus/jurus13_04","jurus/jurus13_05","jurus/jurus13_06"]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=zcgh7cl6WDc',
+            'view' => 'multiple',
+            'description' => 'Pasang – samping kiri, tongkat samping belakang kanan|Tongkat putar – putar|Congkel|Kemplang samping kiri|Kemplang kower kanan|Elak garis|',
+        ]);
+
+        Form::create([
+            'name' => 'Jurus Tunggal IPSI (14)',
+            'parent_id' => 26,
+            'images' => json_encode(["jurus/jurus14_01","jurus/jurus14_02","jurus/jurus14_03","jurus/jurus14_04","jurus/jurus14_05","jurus/jurus14_06","jurus/jurus14_07","jurus/jurus14_08","jurus/jurus14_09","jurus/jurus14_10","jurus/jurus14_11"]),
+            'youtube_url' => 'https://www.youtube.com/watch?v=owsJSuRo9sw',
+            'view' => 'multiple',
+            'description' => 'Pasang kuda – kuda kanan||Berputar gebuk kanan|Kower egos|Tangkis sangga|Tendangan T|Balik kemplang||Putar baling bawah|Tangkis sisi kiri|Kower posisi sempok|',
+        ]);
     }
 }

@@ -18,7 +18,7 @@ class Form extends Model
         $imagesUrl = [];
 
         foreach ($images as $image) {
-            array_push($imagesUrl, asset('img/' . $image . '-resized.png'));
+            array_push($imagesUrl, asset('img/' . $image . '.png'));
         }
 
         return $imagesUrl;
